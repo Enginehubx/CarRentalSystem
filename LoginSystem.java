@@ -32,11 +32,11 @@ public class LoginSystem {
 
             // Check if username and password match
             if (enteredUsername.equals(USERNAME) && enteredPassword.equals(PASSWORD)) {
-                System.out.println("✅ Login Successful! Welcome, " + USERNAME + ".");
+                System.out.println(" Login Successful! Welcome, " + USERNAME + ".");
                 success = true;
                 break; // exit loop on success
             } else {
-                System.out.println("❌ Invalid username or password. Try again.");
+                System.out.println(" Invalid username or password. Try again.");
                 attempts++;
                 System.out.println("Attempts left: " + (3 - attempts));
             }
