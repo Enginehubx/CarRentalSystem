@@ -43,7 +43,7 @@ public class LoginSystem {
         }
 
         if (!success) {
-            System.out.println("🚫 Login failed. Maximum attempts reached.");
+            System.out.println("Login failed. Maximum attempts reached.");
         }
 
         sc.close();
